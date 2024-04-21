@@ -5,39 +5,39 @@ const { ref } = Vue
 const load = Vue.createApp({
   setup () {
     return {
-      CarouselText1: 'You can add/remove items, vehicles, jobs & gangs through the shared folder.',
-      CarouselSubText1: 'Photo captured by: Markyoo#8068',
-      CarouselText2: 'Adding additional player data can be achieved by modifying the qb-core player.lua file.',
-      CarouselSubText2: 'Photo captured by: ihyajb#9723',
-      CarouselText3: 'All server-specific adjustments can be made in the config.lua files throughout the build.',
-      CarouselSubText3: 'Photo captured by: FLAPZ[INACTIV]#9925',
-      CarouselText4: 'For additional support please join our community at discord.gg/qbcore',
-      CarouselSubText4: 'Photo captured by: Robinerino#1312',
+      //CarouselText1: 'You can add/remove items, vehicles, jobs & gangs through the shared folder.',
+      //CarouselSubText1: 'Photo captured by: Markyoo#8068',
+      //CarouselText2: 'Adding additional player data can be achieved by modifying the qb-core player.lua file.',
+      //CarouselSubText2: 'Photo captured by: ihyajb#9723',
+      //CarouselText3: 'All server-specific adjustments can be made in the config.lua files throughout the build.',
+      //CarouselSubText3: 'Photo captured by: FLAPZ[INACTIV]#9925',
+      //CarouselText4: 'For additional support please join our community at discord.gg/qbcore',
+      //CarouselSubText4: 'Photo captured by: Robinerino#1312',
 
-      DownloadTitle: 'Downloading QBCore Server',
-      DownloadDesc: "Hold tight while we begin downloading all the resources/assets required to play on QBCore Server. \n\nAfter download has been finished successfully, you'll be placed into the server and this screen will disappear. Please don't leave or turn off your PC. ",
+      DownloadTitle: 'Scarico GTA-RP',
+      DownloadDesc: "Attendi mentre scarico tutte le risorse necessarie per giocare su GTA-RP. \n\nQuando il download sarà terminato potrai giocare.\n\n Per favore non spegnere il PC. ",
 
-      SettingsTitle: 'Settings',
-      AudioTrackDesc1: 'When disabled the current audio-track playing will be stopped.',
-      AutoPlayDesc2: 'When disabled carousel images will stop cycling and remain on the last shown.',
-      PlayVideoDesc3: 'When disabled video will stop playing and remain paused.',
+      SettingsTitle: 'Impostazioni',
+      AudioTrackDesc1: 'Quando disabilitato, la traccia audio verrà interrotto.',
+      AutoPlayDesc2: 'Quando disabilitato, le immagini smetteranno di scorrere e rimarranno su quella mostrata.',
+      //PlayVideoDesc3: 'When disabled video will stop playing and remain paused.',
 
-      KeybindTitle: 'Default Keybinds',
-      Keybind1: 'Open Inventory',
-      Keybind2: 'Cycle Proximity',
-      Keybind3: 'Open Phone',
-      Keybind4: 'Toggle Seat Belt',
-      Keybind5: 'Open Target Menu',
-      Keybind6: 'Radial Menu',
-      Keybind7: 'Open Hud Menu',
-      Keybind8: 'Talk Over Radio',
-      Keybind9: 'Open Scoreboard',
-      Keybind10: 'Vehicle Locks',
-      Keybind11: 'Toggle Engine',
-      Keybind12: 'Pointer Emote',
-      Keybind13: 'Keybind Slots',
-      Keybind14: 'Hands Up Emote',
-      Keybind15: 'Use Item Slots',
+      KeybindTitle: 'Tasti Predefiniti',
+      Keybind1: 'Apri Inventario',
+      Keybind2: 'Prossimità Ciclabile',
+      Keybind3: 'Telefono',
+      Keybind4: 'Cintura',
+      Keybind5: 'Menu Target',
+      Keybind6: 'Menu Radiale',
+      Keybind7: 'Menu Hud',
+      Keybind8: 'Parla Via Radio',
+      Keybind9: 'Apri Segnapunti',
+      Keybind10: 'Antifurto Veicolo',
+      Keybind11: 'Motore',
+      Keybind12: 'Emote',
+      Keybind13: 'Slot Tasti',
+      Keybind14: 'Mani in Alto',
+      Keybind15: 'Usa Item',
       Keybind16: 'Cruise Control',
 
       firstap: ref(true),
@@ -58,7 +58,7 @@ load.use(Quasar, { config: {} })
 load.mount('#loading-main')
 
 var audio = document.getElementById("audio");
-audio.volume = 0.05;
+audio.volume = 0.5;
 
 function audiotoggle() {
     var audio = document.getElementById("audio");
