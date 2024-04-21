@@ -1,7 +1,5 @@
 const { ref } = Vue
 
-// Customize language for dialog menus and carousels here
-
 const load = Vue.createApp({
   setup () {
     return {
