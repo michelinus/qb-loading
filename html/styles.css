@@ -2,8 +2,6 @@
 
 .brand-logo {
     width: 14% !important;
-    position: fixed;
-    left: 0;
 }
 
 .text-detailbutton {
@@ -15,7 +13,7 @@
 }
 
 .text-togglecolor {
-    color: rgb(12, 2, 194) !important;
+    color: rgb(255,173,67) !important;
 }
 
 .loadingbar {
@@ -37,7 +35,7 @@
 .thingy {
     width: auto;
     height: 1.5vh;
-    background: rgb(12, 2, 194);
+    background: rgb(255,173,67);
     z-index: 9999;
 }
 

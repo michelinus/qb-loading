@@ -36,6 +36,8 @@
         <div class="absolute-top q-pa-xl">
             <q-card flat style="width: auto; background: transparent;">
                 <q-card-section class="row items-center no-wrap">
+                    <!-- This is where you want to replace with your logo -->
+                    <img class="cursor-none brand-logo" src="/assets/branding/logo.png"></img>
                     <q-carousel animated infinite :autoplay="secondap" v-model="secondslide" transition-next="fade"
                         transition-prev="fade" class="bg-transparent text-white">
                         <q-carousel-slide name="1" class="column no-wrap flex-center">
@@ -206,10 +208,6 @@
         <div class="absolute-bottom q-pa-xl">
             <q-card flat style="width: auto; background: transparent;">
                 <q-card-section class="row items-center no-wrap">
-
-                    <!-- This is where you want to replace with your logo -->
-
-                    <img class="cursor-none brand-logo" src="/assets/branding/logo.png"></img>
                     <q-space></q-space>
                     <q-btn :ripple="false" flat size="xl" icon="downloading" color="white"
                         @click="download = true"></q-btn>
