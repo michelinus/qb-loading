@@ -11,9 +11,11 @@ const load = Vue.createApp({
       //CarouselSubText3: 'Photo captured by: FLAPZ[INACTIV]#9925',
       //CarouselText4: 'For additional support please join our community at discord.gg/qbcore',
       //CarouselSubText4: 'Photo captured by: Robinerino#1312',
+      //CarouselText5: 'For additional support please join our community at discord.gg/qbcore',
+      //CarouselSubText5: 'Photo captured by: Robinerino#1312',
 
-      DownloadTitle: 'Scarico GTA-RP',
-      DownloadDesc: "Attendi mentre scarico tutte le risorse necessarie per giocare su GTA-RP. \n\nQuando il download sarà terminato potrai giocare.\n\n Per favore non spegnere il PC. ",
+      DownloadTitle: 'Download risorse AfterLife RP',
+      DownloadDesc: "Attendi durante il download di AfterLife.\nQuando il download sarà terminato potrai giocare.\nBuona permanenza nel server! ",
 
       SettingsTitle: 'Impostazioni',
       AudioTrackDesc1: 'Quando disabilitato, la traccia audio verrà interrotto.',
